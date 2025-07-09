@@ -1,4 +1,4 @@
-.box {
+.box-one {
   border: 5px solid rebeccapurple;
   background-color: lightgray;
   padding: 40px;
@@ -7,6 +7,45 @@
   height: 150px;
 }
 
-.alternate {
+.box-one.alternate {
   box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid blue;
+  margin: 40px;
+}
+
+
+p {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 10px;
+}
+.one {
+  margin-bottom: 50px;
+}
+
+.two {
+  margin-top: 30px;
+}
+
+.box-border {
+  padding: 20px;
+  background-color: lightgray;
+  border: 5px solid orange;
+  border-top-style: dotted;
+  border-right-width: 20px;
+  border-bottom-color: hotpink;
+  margin-bottom: 20px;
+}
+
+.box-padding {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  margin-bottom: 10px;
 }
